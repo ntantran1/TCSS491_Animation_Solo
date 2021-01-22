@@ -5,8 +5,8 @@ class Skeleton {
         this.spritesheet = ASSET_MANAGER.getAsset("./sprites/skeleton.png");
         
 
-        this.animation = new Animator(this.spritesheet, 85, 135, 20, 60, 6, 0.35, 44, false, true);
-        this.animation2 = new Animator(this.spritesheet, 15, 197, 30, 60, 9, 0.35, 34, false, true);
+        this.animation = new Animator(this.spritesheet, 85, 135, 20, 60, 6, 0.2, 44, false, true);
+        this.animation2 = new Animator(this.spritesheet, 15, 197, 30, 60, 9, 0.25, 34, false, true);
         this.animation3 = new Animator(this.spritesheet, 463, 143, 50, 50, 2, 1.0, 10, false, true);
     };
 
