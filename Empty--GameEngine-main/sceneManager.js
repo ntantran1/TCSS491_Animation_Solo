@@ -9,15 +9,15 @@ class SceneManager {
     };
 
 
-    clearEntities() {
-        this.game.entities = [];
-    };
+
 
     load() {
 
         let skeleton = new Skeleton(this.game);
         this.game.addEntity(skeleton);
 
+        let sant = new Sant(this.game);
+        this.game.addEntity(sant);
       
     };
  
